@@ -4,7 +4,7 @@
 
 /**
  * positive_or_negative - Prints if number is positive, zero or negative
- * n-@parameter to be checked
+ * @i: The number to be checked
  * Return: Always (Success)
  */
 void positive_or_negative(int i)
