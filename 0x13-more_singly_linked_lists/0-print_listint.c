@@ -7,13 +7,13 @@
   */
 size_t print_listint(const listint_t *list_l)
 {
-	size_t i;
+	size_t j;
 
-	for (i = 0; list_l; i++)
+	for (j = 0; list_l; j++)
 	{
-		printf("%d\n", list_l->n);
+		printf("%d\n", list_l->i);
 		list_l = list_l->next;
 	}
-	return (i);
+	return (j);
 }
 
